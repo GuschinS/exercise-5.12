@@ -10,6 +10,6 @@ spec:
   project: default
   source:
     path: python-manifests
-    repoURL: https://github.com/GuschinS/nd064_course_1/solutions/argocd
+    repoURL: https://github.com/GuschinS/nd064_course_1/tree/main/solutions/argocdgithub.com/GuschinS/nd064_course_1/solutions/argocd
     targetRevision: HEAD
   syncPolicy: {}
