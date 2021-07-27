@@ -216,5 +216,9 @@ kubectl create RESOURCE [REQUIRED FLAGS] --dry-run=client -o yaml
 
  kubectl create ns demo --dry-run=client -o yaml
 
+kubectl apply -f https://raw.githubusercontent.com/GuschinS/nd064_course_1/main/solutions/argocd/argocd-python.yaml
 
- test
+
+kubectl get application -n argocd
+
+
